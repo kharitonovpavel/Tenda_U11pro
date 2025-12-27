@@ -1,4 +1,4 @@
-# AIC8800D80 Linux Driver
+# AIC8800D80 Fedora 43 Linux Driver
 This driver is for the AIC8800D80 chipset, supported by devices such as the Tenda U11 and AX913B.
 
 Added support for devices with Vendor ID 368B (tested).
@@ -11,6 +11,7 @@ Bluetooth not working.
 I did not develop this software, The code is sourced from the Tenda U11 driver. 
 I only made some modifications to the code to adapt it to newer kernel versions. 
 Apart from compilation issues, I am unable to address other problems.
+This repository was created for myself and in order to share a working driver not for Ubuntu, but for Fedora.
 
 ### Attention
 Before installing the driver, delete all aic8800-related folders under /lib/firmware. 
