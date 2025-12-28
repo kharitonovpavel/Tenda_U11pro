@@ -82,5 +82,5 @@ nmcli
 If the device is still not active, check the kernel logs for any errors related to the driver:
 
 ```bash
-sudo dmesg
+sudo dmesg -T
 ```
